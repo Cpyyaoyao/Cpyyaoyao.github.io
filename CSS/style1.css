@@ -1,0 +1,62 @@
+#top{
+	background-color:black;
+	color: white;
+    padding: 10px;
+}
+
+#left{
+    position: fixed;
+    background-color:#f47985;
+    float:left top;
+    width: 15%;
+    height: 100%;
+    display:inline;
+    transition:background-color 1s, color 1s;
+}
+
+
+#left:hover{
+    background-color:#ae7000;
+    color:white;
+    transition:background-color 1s, color 1s;
+}
+
+
+#right {
+    background-color: white;
+    width: 80%;
+    padding:30px;  
+    float:right;
+    display:inline;
+}
+
+
+#bottom{
+    width: 80%;
+    float:right;
+    background:black;
+    padding:30px; 
+    color:white;
+}
+
+body {
+    background-color: gray;
+}
+
+#music{
+     position: absolute;
+     float: right top;
+}
+
+
+.img 
+  {
+  width: 500px;
+  display:inline;
+  margin:3px;
+  border:1px solid #bebebe;
+  float:left;
+}
+.title{
+    
+}
