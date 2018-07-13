@@ -1,8 +1,8 @@
 
-/*This is for "photo" */
+/* This is for "contact" */
 
 #top{
-  float:right;
+    float:right;
     width: 83%;
 	background-color:black;
 	color: white;
@@ -11,7 +11,7 @@
 
 #left{
     position: fixed;
-    background-color:#f47985;
+    background-color:#9ed900;
     float:left top;
     width: 15%;
     height: 100%;
@@ -21,7 +21,7 @@
 
 
 #left:hover{
-    background-color:#dc3023;
+    background-color:#00bc12;
     color:white;
     transition:background-color 1s, color 1s;
 }
@@ -37,7 +37,7 @@
 
 
 #bottom{
-    width: 95%;
+    width: 80%;
     float:right;
     background:black;
     padding:30px; 
@@ -46,11 +46,6 @@
 
 body {
     background-color: gray;
-}
-
-#music{
-     position: absolute;
-     float: right top;
 }
 
 ul
@@ -75,8 +70,4 @@ a:hover,a:active
 {
 color:white;
 transition:color 0.5s
-}
-
-.img{
-  width: 480px;
 }

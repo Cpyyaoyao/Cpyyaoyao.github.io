@@ -1,4 +1,9 @@
+body{
+	background-size: cover;
+}
+
 #content{
+	margin:10px;
 	background-color: rgba(255,255,255,0.8);
 	padding: 20px;
 	float:right;
@@ -8,11 +13,38 @@
 }
 
 #option{
+	margin:10px;
 	background-color: rgba(255,255,255,0.8);
 	padding:39px;
 	float:right ;
 	border-style: outset;
 	border-color: gray;
 	border:5px;
+}
+
+
+ul
+{
+list-style-type:none;
+margin:0;
+padding:0;
+}
+a:link,a:visited
+{
+display:block;
+font-weight:bold;
+color:black;
+background-color:rgba(255,255,255,0);
+width:120px;
+text-align:center;
+padding:4px;
+text-decoration:none;
+text-transform:uppercase;
+}
+a:hover,a:active
+{
+color:white;
+background-color:#44cef6;
+transition: background-color 0.5s,color 0.5s;
 }
 

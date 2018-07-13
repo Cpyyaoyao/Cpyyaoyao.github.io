@@ -1,4 +1,9 @@
+
+/* This is for "about" */
+
 #top{
+    float:right;
+    width: 83%;
 	background-color:black;
 	color: white;
     padding: 10px;
@@ -7,7 +12,7 @@
 #left{
     position: fixed;
     background-color:rgb(76,255,255);
-    float:left top;
+    float:left;
     width: 15%;
     height: 100%;
     display:inline;
@@ -16,7 +21,7 @@
 
 
 #left:hover{
-    background-color:rgb(20,181,45);
+    background-color:#1685a9;
     color:white;
     transition:background-color 1s, color 1s;
 }
@@ -41,4 +46,28 @@
 
 body {
     background-color: gray;
+}
+
+ul
+{
+list-style-type:none;
+margin:0;
+padding:0;
+}
+a:link,a:visited
+{
+display:block;
+font-weight:bold;
+color:black;
+background-color:rgba(255,255,255,0);
+width:120px;
+text-align:center;
+padding:4px;
+text-decoration:none;
+text-transform:uppercase;
+}
+a:hover,a:active
+{
+color:white;
+transition:color 0.5s
 }
