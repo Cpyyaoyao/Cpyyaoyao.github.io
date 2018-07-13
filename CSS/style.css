@@ -17,6 +17,7 @@
     height: 100%;
     display:inline;
     transition:background-color 1s, color 1s;
+
 }
 
 
@@ -29,8 +30,9 @@
 
 #right {
     background-color: white;
-    width: 80%;
-    padding:30px;  
+    width: 55%;
+    padding-left:15%;
+    padding-right: 15%;  
     float:right;
     display:inline;
 }
@@ -61,13 +63,13 @@ font-weight:bold;
 color:black;
 background-color:rgba(255,255,255,0);
 width:120px;
-text-align:center;
 padding:4px;
+text-align: left;
 text-decoration:none;
 text-transform:uppercase;
 }
 a:hover,a:active
 {
 color:white;
-transition:color 0.5s
+transition:color 0.5s;
 }
